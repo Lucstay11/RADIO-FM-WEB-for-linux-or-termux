@@ -7,7 +7,7 @@ Donc vous avez juste à lancer le script et puis choisir une radio et puis le so
 
 Pour l'installation rien de bien compliqué!
 
- git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux
+ git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux/blob/main/radio.sh
  bash radio.sh
  
  
