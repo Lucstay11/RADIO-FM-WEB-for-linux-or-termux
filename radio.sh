@@ -77,7 +77,7 @@ case $radio in
             ;;
             16)mpv https://radios.rtbf.be/wr-pure2-128.mp3
             ;;
-            17)mpv http://broadcast.infomaniak.net/vibrationbelgique-high.mp3 
+            17)mpv http://vibrationbelgique.ice.infomaniak.ch/vibrationbelgique-high
             ;;
             18)mpv https://start-sud.ice.infomaniak.ch/start-sud-high.mp3
             ;;
