@@ -9,7 +9,11 @@ Pour l'installation rien de bien compliqué!
 
  git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux
  bash radio.sh
- Les commandes                                                           
+ 
+ Les commandes pour le lecteur:
+ p = pause
+ m = mute
+ q = quitter
  
  
 LES PAQUETS=>
