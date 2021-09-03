@@ -44,6 +44,13 @@ echo -e $jaune "[25]Classic 70 [26]Radio Contact  [27]BXFM Radio "
 echo -e $vert
 
 read -p "choisis ta radio préferer :" radio
+ping -c 1 google.fr > /dev/null
+if [ $? != 0 ];then
+echo
+echo "               ●Réseau Wifi indisponible●"
+sleep 2
+exit 
+else
 case $radio in
             1)mpv http://radios.rtbf.be/classic21-128.mp3
             ;;
@@ -67,9 +74,9 @@ case $radio in
             ;;
             11)mpv http://live.funradio.be/funradiobe-high.mp3
             ;;
-            12)mpv http://nostalgiechansonfrancaise.ice.infomaniak.ch/nostalgiechansonfrancaise-128.mp3 
+            12)mpv http://cdn.nrjaudio.fm/audio1/fr/30601/aac_64.mp3?origine=fluxradios
             ;;
-            13)mpv http://nostalgiesoulparty.ice.infomaniak.ch/nostalgiesoulparty-128.mp3
+            13)mpv http://streamingp.shoutcast.com/NostalgieSoulparty-aac
             ;;
             14)mpv http://streamingp.shoutcast.com/NRJ
             ;;
@@ -77,7 +84,7 @@ case $radio in
             ;;
             16)mpv https://radios.rtbf.be/wr-pure2-128.mp3
             ;;
-            17)mpv http://vibrationbelgique.ice.infomaniak.ch/vibrationbelgique-high
+            17)mpv http://91.121.38.100:8310/;stream/1
             ;;
             18)mpv https://start-sud.ice.infomaniak.ch/start-sud-high.mp3
             ;;
@@ -104,4 +111,5 @@ case $radio in
               bash radio.sh
 esac
 bash radio.sh
+fi
 
