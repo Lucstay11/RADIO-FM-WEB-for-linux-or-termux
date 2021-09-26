@@ -5,7 +5,7 @@ rouge='\e[1;31m'
 bleu='\e[1;34m'
 blanc='\e[1;35m'
 jaune='\e[1;33m'
-
+function debut(){
 echo -e $bleu " ██████╗  █████╗ ██████╗ ██╗ ██████╗  "
 echo -e $bleu " ██╔══██╗██╔══██╗██╔══██╗██║██╔═══██╗ "
 echo -e $bleu " ██████╔╝███████║██║  ██║██║██║   ██║ "
@@ -108,8 +108,9 @@ case $radio in
             ;;
             *)echo -e $bleu_clair "Le numero $radio n'est pas encore dans la liste!"
               sleep 2
-              bash radio.sh
+              debut 
 esac
-bash radio.sh
-fi
 
+fi
+}
+debut
