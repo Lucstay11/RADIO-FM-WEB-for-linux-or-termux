@@ -110,7 +110,7 @@ case $radio in
               sleep 2
               debut 
 esac
-
+debut
 fi
 }
 debut
