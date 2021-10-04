@@ -1,1 +1,0 @@
-$('exampleModalCenter').modal('show')
