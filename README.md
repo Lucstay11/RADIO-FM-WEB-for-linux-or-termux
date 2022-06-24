@@ -18,14 +18,16 @@ Donc vous avez juste à lancer le script et puis choisir une radio et puis le so
 
  ```
  $ git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux
+ $ cd RADIO-FM-WEB-for-linux-or-termux
+ $ chmod +x radio.sh
  $ bash radio.sh
  ```
   
  # Les commandes pour le lecteur:
  ```
- p = pause
- m = mute
- q = quitter
+ - p = pause
+ - m = mute
+ - q = quitter
  ```
  
 # LES PAQUETS=>
