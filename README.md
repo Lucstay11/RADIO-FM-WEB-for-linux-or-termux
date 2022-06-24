@@ -1,4 +1,4 @@
-<h1 align="center">RADIO-FM-WEB-for-Linux-or-Termux 📻 <h1>
+<h1 align="center">RADIO FM WEB for Linux and Termux 📻 <h1>
 <p align="center"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="100" height="100"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="100" height="100"/> 
   <p align="center">
   <img src="https://img.shields.io/badge/Author-Lucstay11-cyan?style=flat-square">
