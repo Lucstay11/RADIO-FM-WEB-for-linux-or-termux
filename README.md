@@ -13,23 +13,30 @@ Bonjour à toutes et à tous donc comme vous l'avez remarqué la plupart des nou
 
 Donc vous avez juste à lancer le script et puis choisir une radio et puis le son se fera entendre en arriere plan vous pouvez faire ce que vous voulez en même temps. 
 
-Pour l'installation rien de bien compliqué!
+#Pour l'installation rien de bien compliqué!
 
- git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux
- bash radio.sh
- 
- Les commandes pour le lecteur:
+ ```
+ $ git clone https://github.com/Lucstay11/RADIO-FM-WEB-for-linux-or-termux
+ $ bash radio.sh
+ ```
+  
+ #Les commandes pour le lecteur:
+ ```
  p = pause
  m = mute
  q = quitter
+ ```
  
- 
-LES PAQUETS=>
- Pour Termux:
-apt install mpv
- Pour Linux:
-Sudo apt install mpv 
+#LES PAQUETS=>
 
+Pour Termux:
+```
+$ apt install mpv
+```
+Pour Linux:
+```
+$ Sudo apt install mpv 
+```
 Voila il y a juste un paquet à installer.
 
 Donc n'hesiter pas à laisser des commentaires et profiter bien de cette radio internet!!
